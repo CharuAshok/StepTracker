@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A1D42"
+    tools:context="tumblrr.utd.com.steptracker.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        app:srcCompat="@drawable/steptracker" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="143dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginBottom="257dp"
+        android:background="#FF3700B3"
+        android:text="@string/start_count"
+        android:textColor="#F6F3F3"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_track"
+        android:layout_width="141dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="254dp"
+        android:background="#FF3700B3"
+        android:text="@string/track_steps"
+        android:textColor="#FBF8F8"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_help"
+        android:layout_width="150dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="151dp"
+        android:background="#FF3700B3"
+        android:text="@string/help"
+        android:textColor="#FAF8F8"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="142dp"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="149dp"
+        android:background="#FF3700B3"
+        android:text="@string/game_exit"
+        android:textColor="#F4F1F1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="295dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="53dp"
+        android:hint="Make Every Step Count✨"
+        android:textColor="#EFE8E8"
+        android:textColorHint="#FDFCFC"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
